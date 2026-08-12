@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pretty - Beauty Salon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      /* Clean Professional Theme Overrides (Replacing harsh neon green) */
+      :root {
+        --primary-color: #d4a373;
+        --secondary-color: #2b2d42;
+      }
+      .navbar-brand, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item.active > .nav-link {
+        color: var(--primary-color) !important;
+      }
+      .btn-primary, .btn.btn-primary {
+        background: #2b2d42 !important;
+        border: 1px solid #2b2d42 !important;
+      }
+      .btn-primary:hover {
+        background: #3f4263 !important;
+      }
+      /* Floating Order Bar */
+      #whatsapp-order-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #1f1f1f;
+        color: #ffffff;
+        padding: 15px 30px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;
+        box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+        font-family: 'Montserrat', sans-serif;
+      }
+      #whatsapp-order-bar button {
+        background: #25D366;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      /* Single Select Radio / Check Styling */
+      .service-select-wrap {
+        margin-top: 15px;
+      }
+      .service-radio {
+        accent-color: #2b2d42;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+          	<div class="icon">
+          		<a href="index.html" class="logo">
+          			<span class="flaticon-flower"></span>
+          			<h1>Pretty</h1>
+          		</a>
+          	</div>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Beauty Salon</h1>
+            <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Powered by AV Digital Solutions</p>
+
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#pricing-section" class="btn btn-white btn-outline-white px-4 py-3">View Our Pricing &amp; Services</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-navbar-static" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Pretty</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="#pricing-section" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="#work-section" class="nav-link">Work</a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="ftco-section" id="about-section">
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex mb-3"><span class="flaticon-facial-treatment"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Skin &amp; Beauty Care</h3>
+                <p>Professional skin rejuvenation and premium facial skincare services for you.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex mb-3"><span class="flaticon-cosmetics"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Makeup Pro</h3>
+                <p>Expert makeup services for weddings, parties, and special daily events.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex mb-3"><span class="flaticon-curl"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Hair Style</h3>
+                <p>Trendy cuts, coloring, and styling transformations.</p>
+              </div>
+            </div>    
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Our Beauty Experts</h2>
+            <p>Meet our professional team dedicated to making you look and feel your absolute best.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4" style="background-image: url(images/person_1.jpg);"></div>
+      				<div class="info text-center">
+      					<h3><a href="#">Mellisa Smith</a></h3>
+      					<span class="position">Stylist</span>
+      					<div class="text">
+	        				<p>Specialist in modern hair styling, cuts, and bespoke treatments.</p>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4" style="background-image: url(images/person_2.jpg);"></div>
+      				<div class="info text-center">
+      					<h3><a href="#">Marie Mush</a></h3>
+      					<span class="position">Fashionist</span>
+      					<div class="text">
+	        				<p>Bringing runway-inspired trends directly to your personal care routine.</p>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4" style="background-image: url(images/person_3.jpg);"></div>
+      				<div class="info text-center">
+      					<h3><a href="#">Ana Jacobson</a></h3>
+      					<span class="position">Makeup Stylist</span>
+      					<div class="text">
+	        				<p>Expert in bridal, evening, and avant-garde makeup artistry.</p>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+      				<div class="img mb-4" style="background-image: url(images/person_4.jpg);"></div>
+      				<div class="info text-center">
+      					<h3><a href="#">Ivan Dorchsner</a></h3>
+      					<span class="position">Nail Specialist</span>
+      					<div class="text">
+	        				<p>Master of precision manicures, nail health, and artistic extensions.</p>
+	        			</div>
+      				</div>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section ftco-discount img" style="background-image: url(images/bg_2.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-md-5 discount ftco-animate">
+						<h3>Save up to 25% Off</h3>
+						<h2 class="mb-4">Student Discount</h2>
+						<p class="mb-4">Enjoy discounted rates on all our signature treatments when you present a valid student ID.</p>
+						<p><a href="#contact-section" class="btn btn-white btn-outline-white px-4 py-3">Book Now</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <section class="ftco-section" id="work-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Our Work</h2>
+            <p>Take a look at some of our recent transformations and client styling sessions.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="work-entry">
+        			<img src="images/work-1.jpg" class="img-fluid" alt="Lips Makeover">
+        			<div class="info d-flex align-items-center">
+        				<div>
+        					<div class="icon mb-4 d-flex align-items-center justify-content-center">
+        						<span class="icon-search"></span>
+        					</div>
+		        			<h3>Lips Makeover</h3>
+	        			</div>
+        			</div>
+        		</a>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="work-entry">
+        			<img src="images/work-2.jpg" class="img-fluid" alt="Hair Style">
+        			<div class="info d-flex align-items-center">
+        				<div>
+        					<div class="icon mb-4 d-flex align-items-center justify-content-center">
+        						<span class="icon-search"></span>
+        					</div>
+		        			<h3>Hair Style</h3>
+	        			</div>
+        			</div>
+        		</a>
+        	</div>
+        	<div class="col-md-4 ftco-animate">
+        		<a href="#" class="work-entry">
+        			<img src="images/work-3.jpg" class="img-fluid" alt="Makeup">
+        			<div class="info d-flex align-items-center">
+        				<div>
+        					<div class="icon mb-4 d-flex align-items-center justify-content-center">
+        						<span class="icon-search"></span>
+        					</div>
+		        			<h3>Makeup</h3>
+	        			</div>
+        			</div>
+        		</a>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-partner bg-light">
+    	<div class="container">
+    		<div class="row partner justify-content-center">
+    			<div class="col-md-10">
+    				<div class="row">
+		        	<div class="col-md-3 ftco-animate">
+		        		<a href="#" class="partner-entry">
+		        			<img src="images/partner-1.jpg" class="img-fluid" alt="Partner">
+		        		</a>
+		        	</div>
+		        	<div class="col-md-3 ftco-animate">
+		        		<a href="#" class="partner-entry">
+		        			<img src="images/partner-2.jpg" class="img-fluid" alt="Partner">
+		        		</a>
+		        	</div>
+		        	<div class="col-md-3 ftco-animate">
+		        		<a href="#" class="partner-entry">
+		        			<img src="images/partner-3.jpg" class="img-fluid" alt="Partner">
+		        		</a>
+		        	</div>
+		        	<div class="col-md-3 ftco-animate">
+		        		<a href="#" class="partner-entry">
+		        			<img src="images/partner-4.jpg" class="img-fluid" alt="Partner">
+		        		</a>
+		        	</div>
+	        	</div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+		<section class="ftco-section" id="pricing-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Beauty Pricing</h2>
+            <p>Select your package and book directly via WhatsApp.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center service-item" data-name="Basic Package" data-price="3500">
+        			<div>
+	        			<h3 class="mb-4">Basic</h3>
+	        			<p><span class="price">KES 3,500</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Nail Cutting &amp; Styling</li>
+								<li>Hair Trimming</li>
+								<li>Spa Therapy</li>
+								<li>Body Massage</li>
+								<li>Manicure</li>
+        			</ul>
+        			<div class="service-select-wrap">
+                <label style="cursor: pointer; font-weight: 600;">
+                  <input type="radio" name="salon_service" class="service-radio" onclick="selectService(this)"> Select Package
+                </label>
+              </div>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center service-item" data-name="Standard Package" data-price="5500">
+        			<div>
+	        			<h3 class="mb-4">Standard</h3>
+	        			<p><span class="price">KES 5,500</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Nail Cutting &amp; Styling</li>
+								<li>Hair Trimming</li>
+								<li>Spa Therapy</li>
+								<li>Body Massage</li>
+								<li>Manicure</li>
+        			</ul>
+        			<div class="service-select-wrap">
+                <label style="cursor: pointer; font-weight: 600;">
+                  <input type="radio" name="salon_service" class="service-radio" onclick="selectService(this)"> Select Package
+                </label>
+              </div>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry active pb-5 text-center service-item" data-name="Premium Package" data-price="8500">
+        			<div>
+	        			<h3 class="mb-4">Premium</h3>
+	        			<p><span class="price">KES 8,500</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Nail Cutting &amp; Styling</li>
+								<li>Hair Trimming</li>
+								<li>Spa Therapy</li>
+								<li>Body Massage</li>
+								<li>Manicure</li>
+        			</ul>
+        			<div class="service-select-wrap">
+                <label style="cursor: pointer; font-weight: 600;">
+                  <input type="radio" name="salon_service" class="service-radio" onclick="selectService(this)"> Select Package
+                </label>
+              </div>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center service-item" data-name="Platinum Package" data-price="12500">
+        			<div>
+	        			<h3 class="mb-4">Platinum</h3>
+	        			<p><span class="price">KES 12,500</span> <span class="per">/ session</span></p>
+	        		</div>
+        			<ul>
+        				<li>Nail Cutting &amp; Styling</li>
+								<li>Hair Trimming</li>
+								<li>Spa Therapy</li>
+								<li>Body Massage</li>
+								<li>Manicure</li>
+        			</ul>
+        			<div class="service-select-wrap">
+                <label style="cursor: pointer; font-weight: 600;">
+                  <input type="radio" name="salon_service" class="service-radio" onclick="selectService(this)"> Select Package
+                </label>
+              </div>
+        		</div>
+        	</div>
+        </div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpg);">
+			<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-flower"></span></div>
+		              	<span>Makeup Over Done</span>
+		                <strong class="number" data-number="3500">0</strong>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-flower"></span></div>
+		              	<span>Procedure</span>
+		                <strong class="number" data-number="1000">0</strong>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-flower"></span></div>
+		              	<span>Happy Client</span>
+		                <strong class="number" data-number="3000">0</strong>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-flower"></span></div>
+		              	<span>Skin Treatment</span>
+		                <strong class="number" data-number="900">0</strong>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+            <p>Explore our latest tips and skincare recommendations.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="#" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Skin Care for Teen Skin</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with essentials.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="#" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Advanced Anti-Aging Routines</a></h3>
+                <p>Maintaining youthful and glowing skin with proven daily habits.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="#" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="#">Sept 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Natural Glow Secrets</a></h3>
+                <p>Simple organic ingredients that can transform your skincare regimen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<section class="ftco-section ftco-appointment" id="contact-section">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex align-items-center">
+    			<div class="col-md-2"></div>
+	    		<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+	    			<div class="appointment-info text-center p-5">
+	    				<div class="mb-4">
+	    					<h3 class="mb-3">Address</h3>
+		    				<p>Mombasa Road, Mombasa, Kenya</p>
+	    				</div>
+	    				<div class="mb-4">
+		    				<h3 class="mb-3">Phone</h3>
+		    				<p class="day"><strong>+44 7749 452288</strong></p>
+	    				</div>
+	    				<div>
+		    				<h3 class="mb-3">Opening Hours</h3>
+		    				<p class="day"><strong>Monday - Friday</strong></p>
+		    				<span>08:00am - 09:00pm</span>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="col-md-6 appointment pl-md-5 ftco-animate">
+	    			<h3 class="mb-3">Quick Inquiry</h3>
+	    			<form action="#" class="appointment-form" onsubmit="submitInquiry(event)">
+	            <div class="row form-group d-flex">
+	            	<div class="col-md-6">
+	            		<input type="text" id="inquiry-name" class="form-control" placeholder="Your Name" required>
+	            	</div>
+	            	<div class="col-md-6">
+	            		<input type="text" id="inquiry-phone" class="form-control" placeholder="Phone" required>
+	            	</div>
+	            </div>
+	            <div class="form-group">
+	              <textarea id="inquiry-msg" cols="30" rows="3" class="form-control" placeholder="Message / Service Inquiry" required></textarea>
+	            </div>
+	            <div class="form-group">
+	              <input type="submit" value="Chat on WhatsApp" class="btn btn-white btn-outline-white py-3 px-4">
+	            </div>
+	          </form>
+	    		</div>    			
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Providing top-tier luxury beauty treatments, hair styling, and skincare services.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Skin Care for Teen Skin</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Spa Center</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Body Care</a></li>
+                <li><a href="#" class="py-2 d-block">Massage</a></li>
+                <li><a href="#" class="py-2 d-block">Hydrotherapy</a></li>
+                <li><a href="#" class="py-2 d-block">Yoga</a></li>
+                <li><a href="#" class="py-2 d-block">Sauna</a></li>
+                <li><a href="#" class="py-2 d-block">Aquazone</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Contact Us</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Mombasa Road, Mombasa, Kenya</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+44 7749 452288</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@avdigitalsolutions.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2026 Pretty Salon | Powered by **AV Digital Solutions**</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  <!-- WhatsApp Order Bar -->
+  <div id="whatsapp-order-bar">
+    <div>
+      <span id="cart-summary-text">Selected: None</span> | <strong id="cart-total-price">KES 0</strong>
+    </div>
+    <button onclick="checkoutWhatsApp()">Book via WhatsApp</button>
+  </div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    let selectedServiceName = "";
+    let selectedServicePrice = 0;
+
+    function selectService(radio) {
+      const itemEl = radio.closest('.service-item');
+      selectedServiceName = itemEl.getAttribute('data-name');
+      selectedServicePrice = parseInt(itemEl.getAttribute('data-price')) || 0;
+
+      const bar = document.getElementById('whatsapp-order-bar');
+      document.getElementById('cart-summary-text').textContent = 'Selected: ' + selectedServiceName;
+      document.getElementById('cart-total-price').textContent = 'KES ' + selectedServicePrice.toLocaleString();
+      bar.style.display = 'flex';
+    }
+
+    function checkoutWhatsApp() {
+      if (!selectedServiceName) {
+        alert("Please select a package first.");
+        return;
+      }
+
+      let message = `Hello, I would like to book the following salon service:\n\n*${selectedServiceName}* - KES ${selectedServicePrice.toLocaleString()}\n\nPlease confirm availability!`;
+      const url = `https://wa.me/447749452288?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+
+    function submitInquiry(event) {
+      event.preventDefault();
+      const name = document.getElementById('inquiry-name').value;
+      const phone = document.getElementById('inquiry-phone').value;
+      const msg = document.getElementById('inquiry-msg').value;
+
+      const fullMsg = `Hello, my name is ${name} (Phone: ${phone}). Inquiry: ${msg}`;
+      const url = `https://wa.me/447749452288?text=${encodeURIComponent(fullMsg)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+    
+  </body>
+</html>
