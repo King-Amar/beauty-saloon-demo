@@ -77,6 +77,12 @@
         height: 20px;
         cursor: pointer;
       }
+      /* Make Hero Text Pop */
+      .hero-title-pop {
+        font-weight: 700 !important;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      }
     </style>
   </head>
   <body>
@@ -92,8 +98,7 @@
           			<h1>Pretty</h1>
           		</a>
           	</div>
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Beauty Salon</h1>
-            <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Powered by AV Digital Solutions</p>
+            <h1 class="mb-4 hero-title-pop text-white" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Beauty Salon</h1>
 
             <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#pricing-section" class="btn btn-white btn-outline-white px-4 py-3">View Our Pricing &amp; Services</a></p>
           </div>
@@ -658,6 +663,22 @@
     let selectedServicePrice = 0;
 
     function selectService(radio) {
+      // Toggle logic: if clicking already checked radio, unselect it
+      if (radio.dataset.wasChecked === "true") {
+        radio.checked = false;
+        radio.dataset.wasChecked = "false";
+        selectedServiceName = "";
+        selectedServicePrice = 0;
+        
+        const bar = document.getElementById('whatsapp-order-bar');
+        bar.style.display = 'none';
+        return;
+      }
+
+      // Otherwise, select this one and clear others' states
+      document.querySelectorAll('.service-radio').forEach(r => r.dataset.wasChecked = "false");
+      radio.dataset.wasChecked = "true";
+
       const itemEl = radio.closest('.service-item');
       selectedServiceName = itemEl.getAttribute('data-name');
       selectedServicePrice = parseInt(itemEl.getAttribute('data-price')) || 0;
